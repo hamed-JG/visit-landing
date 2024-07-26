@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  border-radius: 16px;
+  margin: 32px;
+  min-width: 300px;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logoBar {
+  color: #fff;
+  border-radius: 50px;
+  width: 140px;
+  height: 140px;
+  margin: 0 20px;
+  filter: invert(100%);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: nastaliq;
+  font-size: 3.5rem;
+}
+
+.name span {
+  font-size: 14px;
+  font-family: vazir;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.actionBar img {
+  width: 30px;
+  height: 30px;
+  font-weight: bolder;
+}
+
+@media (min-width: 340px) and (max-width: 768px) {
+  .card {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .card > * {
+    color: black;
+  }
+  .actionBar img {
+    filter: invert(100%);
+  }
+  .logoBar {
+    filter: invert(0);
+  }
+}
