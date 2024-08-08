@@ -21,7 +21,7 @@ function Card() {
       <div className={styles.main}>
         <h4>ارتباط با من</h4>
         <div>
-          <a href="tel:09129215791">
+          <a href="tel:+989129215791">
             <IoCallSharp className={styles.icon} />
           </a>
           <a href="mailto:iamzeynabjahan@gmail.com">
