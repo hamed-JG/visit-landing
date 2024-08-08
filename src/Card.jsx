@@ -3,7 +3,8 @@ import logo from "/images/logo.png";
 import eitaa from "/images/eitaa-icon-black.svg";
 import { IoCallSharp } from "react-icons/io5";
 import { MdAlternateEmail } from "react-icons/md";
-import { RiWhatsappFill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function Card() {
   return (
@@ -27,10 +28,10 @@ function Card() {
             <MdAlternateEmail className={styles.icon} />
           </a>
           <a href="https://wa.me/+989129215791">
-            <RiWhatsappFill className={styles.icon} />
+            <FaWhatsapp className={styles.icon} />
           </a>
           <a href="https://eitaa.com/Zeynabjahangiri">
-            <img src={eitaa} className={styles.icon} />
+            <img src={eitaa} className={styles.eitaa} />
           </a>
         </div>
       </div>
