@@ -2,7 +2,7 @@ import styles from "./Card.module.css";
 import logo from "/images/logo.png";
 import eitaa from "/images/eitaa-icon-black.svg";
 import { IoCallSharp } from "react-icons/io5";
-import { FaTelegramPlane } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 import { RiWhatsappFill } from "react-icons/ri";
 
 function Card() {
@@ -23,8 +23,8 @@ function Card() {
           <a href="tel:+989129215791">
             <IoCallSharp className={styles.icon} />
           </a>
-          <a href="https://t.me/Zeynabjahangiri">
-            <FaTelegramPlane className={styles.icon} />
+          <a href="mailto:iamzeynabjahan@gmail.com">
+            <MdAlternateEmail className={styles.icon} />
           </a>
           <a href="https://wa.me/+989129215791">
             <RiWhatsappFill className={styles.icon} />
