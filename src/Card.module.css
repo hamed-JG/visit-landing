@@ -3,61 +3,89 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  color: #fff;
+  padding: 20px;
+  background: #bec2c5;
+  box-shadow: -5px 5px 10px #a3a7a9, 5px -5px 10px #d9dde1;
   border-radius: 16px;
-  margin: 32px;
-  min-width: 300px;
-  width: 400px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 700px;
+  height: 450px;
+  margin: 20px;
 }
 
-.logoBar {
-  color: #fff;
-  border-radius: 50px;
-  width: 140px;
-  height: 140px;
+.header {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: nastaliq;
+}
+.logo {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
   margin: 0 20px;
-  filter: invert(100%);
+  padding: 20px;
+  background: #bec2c5;
+  box-shadow: inset -5px 5px 10px #a3a7a9, inset 5px -5px 10px #d9dde1;
 }
-
 .name {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-family: nastaliq;
-  font-size: 3.5rem;
 }
-
 .name span {
-  font-size: 14px;
+  font-size: 10px;
   font-family: vazir;
+  text-align: center;
+}
+.name div {
+  font-size: 3.2rem;
+  font-family: nastaliq;
+}
+.name small {
+  font-size: 2.2rem;
+  font-family: nastaliq;
 }
 .icon {
   width: 30px;
   height: 30px;
   margin-right: 5px;
+  color: #000;
 }
-.actionBar img {
-  width: 30px;
-  height: 30px;
-  font-weight: bolder;
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  font-family: vazir;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 20px 0;
+}
+
+h4 {
+  width: 40%;
+  text-align: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.392);
+  margin: 5px 0;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 340px) and (max-width: 768px) {
   .card {
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 350px;
+    height: calc(100vh - 20px);
+    margin: 20px;
   }
-  .card > * {
-    color: black;
-  }
-  .actionBar img {
-    filter: invert(100%);
-  }
-  .logoBar {
-    filter: invert(0);
+  .header {
+    flex-direction: column;
   }
 }
