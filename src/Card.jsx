@@ -4,7 +4,7 @@ import eitaa from "/images/eitaa-icon-black.svg";
 import { IoCallSharp } from "react-icons/io5";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 function Card() {
   return (
@@ -21,7 +21,7 @@ function Card() {
       <div className={styles.main}>
         <h4>ارتباط با من</h4>
         <div>
-          <a href="tel:+989129215791">
+          <a href="tel:09129215791">
             <IoCallSharp className={styles.icon} />
           </a>
           <a href="mailto:iamzeynabjahan@gmail.com">
