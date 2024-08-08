@@ -82,7 +82,7 @@ h4 {
 @media (min-width: 340px) and (max-width: 768px) {
   .card {
     width: 350px;
-    height: 630px;
+    height: 670px;
     margin: 20px;
   }
   .header {
