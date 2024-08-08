@@ -1,10 +1,10 @@
 @font-face {
   font-family: nastaliq;
-  src: url(../public/fonts/IranNastaliq.ttf);
+  src: url(/fonts/IranNastaliq.ttf);
 }
 @font-face {
   font-family: vazir;
-  src: url(../public/fonts/Vazir-Black.woff);
+  src: url(/fonts/Vazir-Black.woff);
 }
 
 a {
@@ -22,6 +22,7 @@ a:hover {
   margin: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  transition: all 1s ease-in;
 }
 
 body {
