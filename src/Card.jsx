@@ -1,15 +1,9 @@
 import styles from "./Card.module.css";
-import logo from "../public/images/logo.png";
-import eitaa from "../public/images/eitaa-icon-black.svg";
+import logo from "/images/logo.png";
+import eitaa from "/images/eitaa-icon-black.svg";
 import { IoCallSharp } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
-
-const about = {
-  education: `دانش آموخته پردیس دانشگاه تهران با معدل 20`,
-  experience: `6 سال سابقه فعالیت حقوقی حین تحصیل`,
-  skills: `مسلط به روند پیگیری انواع پرونده های قضایی و کیفری`,
-};
 
 function Card() {
   return (
@@ -35,7 +29,9 @@ function Card() {
           <a href="https://wa.me/+989129215791">
             <RiWhatsappFill className={styles.icon} />
           </a>
-          <img src={eitaa} className={styles.icon} />
+          <a href="https://eitaa.com/Zeynabjahangiri">
+            <img src={eitaa} className={styles.icon} />
+          </a>
         </div>
       </div>
     </div>
