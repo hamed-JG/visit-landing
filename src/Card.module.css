@@ -82,10 +82,16 @@ h4 {
 @media (min-width: 340px) and (max-width: 768px) {
   .card {
     width: 350px;
-    height: calc(100vh - 20px);
+    height: 630px;
     margin: 20px;
   }
   .header {
     flex-direction: column;
+  }
+  .header div {
+    margin-top: 10px;
+  }
+  .main {
+    margin-top: 50px;
   }
 }
